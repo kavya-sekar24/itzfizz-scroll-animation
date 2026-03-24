@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // Enables static HTML export for GitHub Pages
+  output: "export",
+  basePath: "/itzfizz-scroll-animation",
   images: {
-    unoptimized: true, // Required for static export
+    unoptimized: true,
   },
 };
 
